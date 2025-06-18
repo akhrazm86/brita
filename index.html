@@ -565,15 +565,15 @@
   <h3 class="mb-4 text-primary">Inscrivez-vous maintenant</h3>
   <form id="styledContactForm">
     <div class="mb-4">
-      <label for="fullName" class="form-label fw-semibold">Nom complet</label>
+      <label for="fullName2" class="form-label fw-semibold">Nom complet</label>
       <input type="text" name="fullName" class="form-control form-control-lg rounded-pill" id="fullName" required>
     </div>
     <div class="mb-4">
-      <label for="phone" class="form-label fw-semibold">Numéro de téléphone</label>
+      <label for="phone2" class="form-label fw-semibold">Numéro de téléphone</label>
       <input type="tel" name="phone" class="form-control form-control-lg rounded-pill" id="phone" required>
     </div>
     <div class="mb-4">
-      <label for="city" class="form-label fw-semibold">Ville</label>
+      <label for="city2" class="form-label fw-semibold">Ville</label>
       <input type="text" name="city" class="form-control form-control-lg rounded-pill" id="city" required>
     </div>
     <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Envoyer</button>
@@ -586,9 +586,9 @@
 
     const form = e.target;
     const data = {
-      "Full Name": form.fullName.value,
-      "Number Phone": form.phone.value,
-      "City": form.city.value,
+      "Full Name": form.fullName2.value,
+      "Number Phone": form.phone2.value,
+      "City": form.city2.value,
       "Date": new Date().toLocaleString()
     };
 
