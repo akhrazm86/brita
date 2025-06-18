@@ -128,14 +128,12 @@
       },
       body: JSON.stringify(data)
     })
-    .then(response => {
-      if (response.ok) {
-        // ✅ Redirect after successful submission
+    .then(() => {
+      setTimeout(() => {
         window.location.href = "merci.html";
-      } else {
-        alert("Erreur lors de l’envoi. Réessayez plus tard.");
-      }
+      }, 500); // or 1000ms
     })
+
     .catch(error => {
       console.error("Erreur réseau :", error);
       alert("Erreur de connexion. Vérifiez votre réseau.");
