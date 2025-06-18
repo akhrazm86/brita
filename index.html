@@ -565,52 +565,22 @@
   <h3 class="mb-4 text-primary">Inscrivez-vous maintenant</h3>
   <form id="styledContactForm">
     <div class="mb-4">
-      <label for="fullName2" class="form-label fw-semibold">Nom complet</label>
+      <label for="fullName" class="form-label fw-semibold">Nom complet</label>
       <input type="text" name="fullName" class="form-control form-control-lg rounded-pill" id="fullName" required>
     </div>
     <div class="mb-4">
-      <label for="phone2" class="form-label fw-semibold">Numéro de téléphone</label>
+      <label for="phone" class="form-label fw-semibold">Numéro de téléphone</label>
       <input type="tel" name="phone" class="form-control form-control-lg rounded-pill" id="phone" required>
     </div>
     <div class="mb-4">
-      <label for="city2" class="form-label fw-semibold">Ville</label>
+      <label for="city" class="form-label fw-semibold">Ville</label>
       <input type="text" name="city" class="form-control form-control-lg rounded-pill" id="city" required>
     </div>
     <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Envoyer</button>
   </form>
 </div>
 
-<script>
-  document.getElementById("styledContactForm").addEventListener("submit", function (e) {
-    e.preventDefault();
 
-    const form = e.target;
-    const data = {
-      "Full Name": form.fullName2.value,
-      "Number Phone": form.phone2.value,
-      "City": form.city2.value,
-      "Date": new Date().toLocaleString()
-    };
-
-    fetch("https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
-    })
-    .then(() => {
-      // délai léger pour s'assurer que la requête passe bien
-      setTimeout(() => {
-        window.location.href = "merci.html";
-      }, 500);
-    })
-    .catch((error) => {
-      alert("Une erreur s'est produite. Veuillez réessayer.");
-      console.error(error);
-    });
-  });
-</script>
 
           </div>
           
