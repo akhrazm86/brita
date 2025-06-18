@@ -9,7 +9,7 @@
   <!-- Document Title, Description, and Author -->
   <title>Britavox | English online center</title>
   <meta name="description" content="Wave is a Bootstrap 5 One Page Template.">
-  <meta name="author" content="BootstrapBrain">
+  <meta name="author" content="akhraz.me">
 
   <!-- Favicon and Touch Icons -->
   <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon.png">
@@ -93,23 +93,56 @@
         <div class="col-12 col-lg-5 order-2 order-lg-1">
           <div class="p-5 bg-white rounded shadow-sm">
             <h3 class="mb-4 text-primary">Inscrivez-vous maintenant</h3>
-              <form
-                  action="https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f" method="POST" >
-                <div class="mb-4">
-                  <label for="fullName" class="form-label fw-semibold">Nom complet</label>
-                  <input type="text" name="Full Name" class="form-control form-control-lg rounded-pill" id="fullName" required>
-                </div>
-                <div class="mb-4">
-                  <label for="phone" class="form-label fw-semibold">Numéro de téléphone</label>
-                  <input type="tel" name="Number Phone" class="form-control form-control-lg rounded-pill" id="phone" required>
-                </div>
-                <div class="mb-4">
-                  <label for="city" class="form-label fw-semibold">Ville</label>
-                  <input type="text" name="City" class="form-control form-control-lg rounded-pill" id="city" required>
-                </div>
+              <form id="contactForm">
+  <div class="mb-4">
+    <label for="fullName">Nom complet</label>
+    <input type="text" name="fullName" class="form-control" id="fullName" required>
+  </div>
+  <div class="mb-4">
+    <label for="phone">Numéro de téléphone</label>
+    <input type="tel" name="phone" class="form-control" id="phone" required>
+  </div>
+  <div class="mb-4">
+    <label for="city">Ville</label>
+    <input type="text" name="city" class="form-control" id="city" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
 
-                <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Envoyer</button>
-              </form>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const data = {
+      "Full Name": form.fullName.value,
+      "Number Phone": form.phone.value,
+      "City": form.city.value,
+      "Date": new Date().toLocaleString()
+    };
+
+    fetch("https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => {
+      if (response.ok) {
+        // ✅ Redirect after successful submission
+        window.location.href = "merci.html";
+      } else {
+        alert("Erreur lors de l’envoi. Réessayez plus tard.");
+      }
+    })
+    .catch(error => {
+      console.error("Erreur réseau :", error);
+      alert("Erreur de connexion. Vérifiez votre réseau.");
+    });
+  });
+</script>
+
           </div>
 
         </div>
