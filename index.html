@@ -108,46 +108,55 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Envoyer</button>
               </form>
+
+<!-- Success message -->
+                  <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+                    Merci ! Votre message a été envoyé avec succès.
+                  </div>
+
           </div>
-            <div id="successMessage" class="alert alert-success mt-4 d-none">
-              Merci ! Votre message a été envoyé avec succès.
-            </div>
 
-            <script>
-              document.getElementById("contactForm").addEventListener("submit", async function (e) {
-                e.preventDefault(); // Prevent default redirect
-
-                const form = e.target;
-                const data = new FormData(form);
-
-                const payload = {};
-                data.forEach((value, key) => {
-                  payload[key] = value;
-                });
-
-                // Replace with your actual Make.com webhook URL
-                const webhookUrl = "https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f";
-
-                try {
-                  await fetch(webhookUrl, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(payload)
-                  });
-
-                  form.reset();
-                  document.getElementById("successMessage").classList.remove("d-none");
-                } catch (error) {
-                  alert("Une erreur s’est produite. Veuillez réessayer.");
-                }
-              });
-            </script>
         </div>
         
       </div>
     </div>
   </section>
-  
+  <script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Stop the form from submitting the traditional way
+
+    const form = e.target;
+    const data = {
+      "Full Name": form.fullName.value,
+      "Number Phone": form.phone.value,
+      "City": form.city.value,
+      "Date": new Date().toLocaleString() // Optional
+    };
+
+    // Your Make.com webhook URL
+    const webhookURL = "https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f";
+
+    fetch(webhookURL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => {
+      if (response.ok) {
+        form.reset();
+        document.getElementById("successMessage").style.display = "block";
+      } else {
+        alert("Erreur lors de l’envoi. Réessayez plus tard.");
+      }
+    })
+    .catch(error => {
+      console.error("Erreur réseau :", error);
+      alert("Erreur de connexion. Vérifiez votre réseau.");
+    });
+  });
+</script>
   <!-- Main -->
   <main id="main">
 
@@ -561,7 +570,8 @@
             <div class="p-5 bg-white rounded shadow-sm">
             <h3 class="mb-4 text-primary">Inscrivez-vous maintenant</h3>
               <form
-                action="https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f" method="POST" >
+                action="https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f" 
+                method="POST" >
               <div class="mb-4">
                 <label for="fullName" class="form-label fw-semibold">Nom complet</label>
                 <input type="text" name="Full Name" class="form-control form-control-lg rounded-pill" id="fullName" required>
