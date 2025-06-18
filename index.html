@@ -93,25 +93,55 @@
         <div class="col-12 col-lg-5 order-2 order-lg-1">
           <div class="p-5 bg-white rounded shadow-sm">
             <h3 class="mb-4 text-primary">Inscrivez-vous maintenant</h3>
-              <form
-                action="https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f" method="POST" >
-              <div class="mb-4">
-                <label for="fullName" class="form-label fw-semibold">Nom complet</label>
-                <input type="text" name="Full Name" class="form-control form-control-lg rounded-pill" id="fullName" required>
-              </div>
-              <div class="mb-4">
-                <label for="phone" class="form-label fw-semibold">Numéro de téléphone</label>
-                <input type="tel" name="Number Phone" class="form-control form-control-lg rounded-pill" id="phone" required>
-              </div>
-              <div class="mb-4">
-                <label for="city" class="form-label fw-semibold">Ville</label>
-                <input type="text" name="City" class="form-control form-control-lg rounded-pill" id="city" required>
-              </div>
-
-              <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Envoyer</button>
-            </form>
+              <form id="contactForm">
+                <div class="mb-4">
+                  <label for="fullName">Nom complet</label>
+                  <input type="text" name="Full Name" class="form-control" id="fullName" required>
+                </div>
+                <div class="mb-4">
+                  <label for="phone">Numéro de téléphone</label>
+                  <input type="tel" name="Number Phone" class="form-control" id="phone" required>
+                </div>
+                <div class="mb-4">
+                  <label for="city">Ville</label>
+                  <input type="text" name="City" class="form-control" id="city" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </form>
           </div>
+            <div id="successMessage" class="alert alert-success mt-4 d-none">
+              Merci ! Votre message a été envoyé avec succès.
+            </div>
 
+            <script>
+              document.getElementById("contactForm").addEventListener("submit", async function (e) {
+                e.preventDefault(); // Prevent default redirect
+
+                const form = e.target;
+                const data = new FormData(form);
+
+                const payload = {};
+                data.forEach((value, key) => {
+                  payload[key] = value;
+                });
+
+                // Replace with your actual Make.com webhook URL
+                const webhookUrl = "https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f";
+
+                try {
+                  await fetch(webhookUrl, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(payload)
+                  });
+
+                  form.reset();
+                  document.getElementById("successMessage").classList.remove("d-none");
+                } catch (error) {
+                  alert("Une erreur s’est produite. Veuillez réessayer.");
+                }
+              });
+            </script>
         </div>
         
       </div>
