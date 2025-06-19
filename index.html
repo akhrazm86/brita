@@ -100,7 +100,16 @@
               </div>
               <div class="mb-4">
                 <label for="phone1" class="form-label fw-semibold">Numéro de téléphone</label>
-                <input type="tel" id="phone1" class="form-control form-control-lg rounded-pill" required>
+                <input
+                  type="tel"
+                  id="phone1"
+                  name="phone"
+                  class="form-control form-control-lg rounded-pill"
+                  placeholder="06XXXXXXXX ou +2126XXXXXXXX"
+                  required
+                  oninput="this.value = this.value.replace(/[^0-9+]/g, '')"
+                >
+
               </div>
               <div class="mb-4">
                 <label for="city1" class="form-label fw-semibold">Ville</label>
@@ -536,7 +545,16 @@
                       </div>
                       <div class="mb-4">
                         <label for="phone2" class="form-label fw-semibold">Numéro de téléphone</label>
-                        <input type="tel" id="phone2" class="form-control form-control-lg rounded-pill" required>
+                        <input
+                          type="tel"
+                          id="phone2"
+                          name="phone"
+                          class="form-control form-control-lg rounded-pill"
+                          placeholder="06XXXXXXXX ou +2126XXXXXXXX"
+                          required
+                          oninput="this.value = this.value.replace(/[^0-9+]/g, '')"
+                        >
+
                       </div>
                       <div class="mb-4">
                         <label for="city2" class="form-label fw-semibold">Ville</label>
@@ -721,7 +739,14 @@
       "City": city,
       "Date": new Date().toLocaleString()
     };
+      const phone = form.phone.value.trim();
 
+const marocainRegex = /^(?:\+212|0)(6|7)[0-9]{8}$/;
+
+if (!marocainRegex.test(phone)) {
+  alert("Veuillez entrer un numéro de téléphone marocain valide (06, 07 ou +2126/7...).");
+  return;
+}
     fetch("https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
