@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Britavox | English online center</title>
+  <meta name="description" content="Wave is a Bootstrap 5 One Page Template.">
+  <meta name="author" content="akhraz.me">
+
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/wave-bsb.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVWEY6BFDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LVWEY6BFDR');
+</script>
+    <meta name="facebook-domain-verification" content="bp3nurtwcj3qieez2anbu1u8cvl4s1" />
+  <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1924341144776130');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1924341144776130&ev=PageView&noscript=1"
+/></noscript>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#bsb-tpl-navbar" data-bs-smooth-scroll="true" tabindex="0">
+ <header id="header" class=" bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX">
+
+<nav id="scrollspyNav" class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+<img src="./assets/img/branding/logo.svg" class="bsb-tpl-logo" alt="britavox">
+</a>
+<button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+</svg>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header">
+<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
+<li class="nav-item">
+<a class="nav-link active" href="#scrollspyNav" aria-current="page" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Accueil</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyAbout" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">À propos</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyservices" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyPricing" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Tarifs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#scrollspyContact" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+
+</header>
+
+  
+
+  <section id="scrollspyHero" class="bsb-hero-2 bsb-tpl-bg-blue py-5 py-xl-8 py-xxl-10">
+    <div class="container overflow-hidden">
+      <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
+  
+        <div class="col-12 col-lg-6 order-1 order-lg-0">
+          <h1 class="display-3 fw-bolder mb-3">
+            Parlez anglais avec confiance.
+            <mark class="bsb-tpl-highlight bsb-tpl-highlight-blue">
+              <span class="bsb-tpl-font-hw display-2 text-accent fw-normal">Commencez</span>
+            </mark>
+             par votre évaluation 100% gratuite.
+          </h1>
+          <p class="fs-4 mb-5">Découvrez votre niveau actuel et recevez un plan d'apprentissage personnalisé. Sans engagement.</p>
+          </div>
+  
+        <div class="col-12 col-lg-5 order-2 order-lg-1">
+          <div class="p-5 bg-white rounded shadow-sm">
+            <h3 class="mb-4 text-primary">Réservez votre session d'évaluation gratuite</h3>
+            <form id="formHero" class="contact-form">
+              <div class="mb-4">
+                <label for="fullName1" class="form-label fw-semibold">Nom complet</label>
+                <input type="text" id="fullName1" class="form-control form-control-lg rounded-pill" required>
+              </div>
+              <div class="mb-4">
+                <label for="phone1" class="form-label fw-semibold">Numéro de téléphone</label>
+                <input type="tel" id="phone1" class="form-control form-control-lg rounded-pill" required>
+              </div>
+              <div class="mb-4">
+                <label for="city1" class="form-label fw-semibold">Ville</label>
+                <input type="text" id="city1" class="form-control form-control-lg rounded-pill" required>
+              </div>
+              <div id="formHeroMessage" class="form-message" style="margin-bottom: 15px;"></div>
+              <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Je réserve ma session gratuite</button>
+            </form>
+          </div>
+        </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <main id="main">
+
+    <section id="etapes" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container mb-5 mb-md-6 mb-xl-10">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h2 class="display-3 fw-bolder mb-4">Comment fonctionne Britavox ?</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+            </div>
+            <h4 class="mb-3">Inscrivez-vous</h4>
+            <p class="mb-3 text-secondary">Remplissez notre formulaire en ligne et choisissez vos créneaux horaires préférés. Notre équipe vous contacte sous 24h pour finaliser votre inscription.</p>
+          
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+              </svg>
+            </div>
+            <h4 class="mb-3">Évaluez votre niveau</h4>
+            <p class="mb-3 text-secondary">Participez à une séance d'évaluation gratuite avec un de nos experts pour déterminer votre niveau actuel et définir vos objectifs d'apprentissage.</p>
+            
+          </div>
+          <div class="col-11 col-sm-6 col-lg-3">
+            <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+              </svg>
+            </div>
+            <h4 class="mb-3">Commencez vos cours</h4>
+            <p class="mb-3 text-secondary">Rejoignez vos sessions en ligne selon l'horaire que vous avez choisi. Changez de groupe ou d'horaire quand vous voulez.</p>
+            
+          </div>
+        
+        </div>
+      </div>
+    </section>
+    
+    <section class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-sm-6 col-xl-3">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-yellow text-primary border-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                  </svg>
+                </div>
+                <h3 class="h1 mb-2">+1500</h3>
+                <p class="fs-5 mb-0 text-secondary">Apprenants Formés</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-green text-primary border-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                  </svg>
+                </div>
+                <h3 class="h1 mb-2">97%</h3>
+                <p class="fs-5 mb-0 text-secondary">Satisfaction Client</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-pink text-primary border-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                  </svg>
+                </div>
+                <h3 class="h1 mb-2">4.8/5</h3>
+                <p class="fs-5 mb-0 text-secondary">Évaluation Moyenne</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <div class="btn btn-primary bsb-btn-circle bsb-btn-circle-4xl pe-none mb-2 bsb-tpl-bg-cyan text-primary border-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                    <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                  </svg>
+                </div>
+                <h3 class="h1 mb-2">+700</h3>
+                <p class="fs-5 mb-0 text-secondary">Certifications Réussies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scrollspyAbout" class="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-5 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid rounded" loading="lazy" src="./assets/img/about/about-britavox.png" alt="Britavox">
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-xl-end">
+              <div class="col-12 col-xl-11">
+                <h3 class="display-3 fw-bolder mb-4">Nos méthodes optimistes vous ferons nous préférer</h3>
+                <p class="fs-4 mb-5">Voici les raisons principales de nous préférer pour votre apprentissage. Nous croyons en la transparence sans barrières cachées.</p>
+                <div class="accordion accordion-flush" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Tarifs Ultra-Compétitifs
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Nous offrons les tarifs les plus compétitifs du secteur, sans compromettre la qualité d'enseignement. Nous comprenons que le coût est un facteur important dans le choix d'un centre de formation, et nous nous engageons à offrir le meilleur rapport qualité-prix à nos apprenants.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Compétences Contemporaines
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Notre équipe pédagogique maîtrise les dernières tendances en enseignement numérique et les méthodes d'apprentissage les plus modernes. Nous nous formons continuellement pour vous offrir une expérience d'apprentissage à la pointe de l'innovation technologique et pédagogique.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Support de Premier Ordre
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Nous assurons un accompagnement exceptionnel 7j/7 avec une équipe dédiée à votre réussite. Notre support technique et pédagogique est disponible à tout moment pour résoudre vos questions et vous aider à surmonter les difficultés d'apprentissage.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<section id="scrollspyservices" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+  <div class="container mb-5 mb-md-6 mb-xl-10">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+        <h2 class="display-3 fw-bolder mb-4">Nos Services
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
+      <div class="col-11 col-sm-6 col-lg-3">
+        <div class="badge bsb-tpl-bg-yellow text-primary p-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+            <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            <path d="M2.165 15.803l.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
+          </svg>
+        </div>
+        <h4 class="mb-3">Anglais Conversationnel
+        </h4>
+        <p class="mb-3 text-secondary">Nous vous aidons à développer votre aisance orale et votre confiance en anglais. Nos sessions interactives privilégient la pratique intensive avec des situations réelles du quotidien et professionnel.
+        </p>
+      
+      </div>
+      <div class="col-11 col-sm-6 col-lg-3">
+        <div class="badge bsb-tpl-bg-green text-primary p-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </div>
+        <h4 class="mb-3">Anglais Business
+        </h4>
+        <p class="mb-3 text-secondary">Nous vous accompagnons dans la création d'un profil professionnel anglophone solide. Nous prenons en compte vos objectifs carrière et votre secteur d'activité pour personnaliser votre formation.
+        </p>
+        
+      </div>
+      <div class="col-11 col-sm-6 col-lg-3">
+        <div class="badge bsb-tpl-bg-pink text-primary p-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+          </svg>
+        </div>
+        <h4 class="mb-3">Préparation aux Examens
+        </h4>
+        <p class="mb-3 text-secondary">Nous vous aidons à améliorer vos scores aux examens internationaux (IELTS, TOEFL, Cambridge). Cela peut mener à de meilleures opportunités académiques et professionnelles.
+        </p>
+        
+      </div>
+      <div class="col-11 col-sm-6 col-lg-3">
+        <div class="badge bsb-tpl-bg-cyan text-primary p-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-gear" viewBox="0 0 16 16">
+            <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Zm3.63-4.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+          </svg>
+        </div>
+        <h4 class="mb-3">Coaching Sur Mesure
+        </h4>
+        <p class="mb-3 text-secondary">Nous vous aidons à progresser selon vos disponibilités grâce à une variété de formats : cours individuels, sessions de groupe, coaching intensif, et accompagnement personnalisé.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section id="scrollspyPricing" class="bsb-pricing-1 bsb-tpl-bg-sea-shell py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-5 gy-lg-0 align-items-center">
+          <div class="col-12 col-lg-4">
+            <h2 class="display-3 fw-bolder mb-4">Nos Formules Tarifaires</h2>
+            <p class="fs-4 mb-4 mb-xl-5">Nos tarifs flexibles pour répondre parfaitement à vos besoins.</p>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row justify-content-xl-end">
+              <div class="col-12 col-xl-11">
+                <div class="row gy-4 gy-md-0 gx-xxl-5">
+                  <div class="col-12 col-md-6">
+                    <div class="card border-0 border-bottom border-primary shadow-sm">
+                      <div class="card-body p-4 p-xxl-5">
+                        <h2 class="h4 mb-2">Group</h2>
+                        <h4 class="display-3 fw-bold text-primary mb-0">250 DH</h4>
+                        <p class="text-secondary mb-4">/ Mois</p>
+                        <ul class="list-group list-group-flush mb-4">
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span><strong>5</strong> personnes par groupe</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span><strong>3</strong> séances par semaine</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>Séances de communication</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>Cours de Cambridge</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>Interaction Dynamique</span>
+                          </li>
+                        </ul>
+                        <a href="#scrollspyContact" class="btn bsb-btn-2xl btn-accent rounded-pill">Choisir</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="card border-0 border-bottom border-primary shadow-lg pt-md-4 pb-md-4 bsb-pricing-popular">
+                      <div class="card-body p-4 p-xxl-5">
+                        <h2 class="h4 mb-2">Individuals</h2>
+                        <h4 class="display-3 fw-bold text-primary mb-0">500 DH</h4>
+                        <p class="text-secondary mb-4">/ Mois</p>
+                        <ul class="list-group list-group-flush mb-4">
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span><strong>3</strong> séances par semaine</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span> Face à face avec professeur</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>Séances supplémentaires</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>24x7 Support premium</span>
+                          </li>
+                          <li class="list-group-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                            <span>Horaires Ultra-flexibles</span>
+                          </li>
+                        </ul>
+                        <a href="#scrollspyContact" class="btn bsb-btn-2xl btn-accent rounded-pill">Choisir</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container mb-5 mb-md-6 mb-xl-10">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
+            <h2 class="display-3 fw-bolder mb-4">Témoignages de Réussite
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-md-0 gx-xxl-5">
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">Britavox a vraiment changé ma vie professionnelle ! Grâce aux cours flexibles, j'ai pu améliorer mon anglais tout en gardant mon travail, Maintenant je gère des projets internationaux avec confiance. Chokran Britavox</blockquote>
+                    <h4 class="mb-2">Youssef Benali
+                    </h4>
+                    <h5 class="fs-6 text-secondary mb-0">Ingénieur Informatique</h5>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="4" data-bsb-star-off="1"></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">En tant que maman et professeure, j'avais peu de temps libre. Britavox m'a permis d'étudier selon mon planning. J'ai obtenu ma certification Cambridge en 8 mois seulement. Une expérience formidable</blockquote>
+                    <h4 class="mb-2">Zahira Lami
+                    </h4>
+                    <h5 class="fs-6 text-secondary mb-0">Enseignante</h5>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body p-4 p-xxl-5">
+                <figure>
+                  <figcaption>
+                    <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                    <blockquote class="bsb-blockquote-icon mb-4">J'avais besoin d'améliorer mon anglais pour mon poste dans le tourisme à Marrakech. L'équipe Britavox a compris mes besoins spécifiques. Aujourd'hui, je communique parfaitement avec les touristes internationaux. Bravo à toute l'équipe</blockquote>
+                    <h4 class="mb-2">Omar Ait Lamine
+                    </h4>
+                    <h5 class="fs-6 text-secondary mb-0">Guide Touristique</h5>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="scrollspyContact" class="py-5 py-xl-8 bsb-section-py-xxl-1">
+      <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6">
+            <div class="p-5 bg-white rounded shadow-sm">
+                    <h3 class="mb-4 text-primary">Réservez votre session gratuite</h3>
+                    <form id="formBottom" class="contact-form">
+                      <div class="mb-4">
+                        <label for="fullName2" class="form-label fw-semibold">Nom complet</label>
+                        <input type="text" id="fullName2" class="form-control form-control-lg rounded-pill" required>
+                      </div>
+                      <div class="mb-4">
+                        <label for="phone2" class="form-label fw-semibold">Numéro de téléphone</label>
+                        <input type="tel" id="phone2" class="form-control form-control-lg rounded-pill" required>
+                      </div>
+                      <div class="mb-4">
+                        <label for="city2" class="form-label fw-semibold">Ville</label>
+                        <input type="text" id="city2" class="form-control form-control-lg rounded-pill" required>
+                      </div>
+                      <div id="formBottomMessage" class="form-message" style="margin-bottom: 15px;"></div>
+                      <button type="submit" class="btn btn-primary bsb-btn-3xl rounded-pill w-100">Je réserve ma session gratuite</button>
+                    </form>
+              </div>
+            </div>
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-xl-center">
+              <div class="col-12 col-xl-11">
+                <h2 class="h1 mb-3">Prenez Contact</h2>
+                <p class="lead fs-4 text-secondary mb-5">
+                  Nous sommes toujours disponibles pour créer votre parcours d'apprentissage idéal.
+                </p>
+                <div class="d-flex mb-4">
+                  <div class="me-4 text-primary">
+                    </div>
+                  <div>
+                    <h4 class="mb-3">Phone</h4>
+                    <p class="mb-0">
+                      <a class="link-secondary text-decoration-none" href="tel:+212684251245">+212 6 84 25 12 45</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="me-4 text-primary">
+                    </div>
+                  <div>
+                    <h4 class="mb-3">E-Mail</h4>
+                    <p>
+                      <a class="link-secondary text-decoration-none" href="mailto:contact@britavox.com">contact@britavox.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> </div>
+      </div>
+    </section>
+    
+  </main>
+  
+  
+  <footer class="footer">
+
+    <section class="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-lg-0 justify-content-xl-between">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <a href="index.html">
+                <img src="./assets/img/branding/logo.svg" alt="" class="bsb-tpl-logo-footer">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <h4 class="widget-title mb-4">Navigation</h4>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#scrollspyNav" class="link-secondary text-decoration-none">Accueil</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#scrollspyAbout" class="link-secondary text-decoration-none">À propos</a>
+                </li>
+                <li class="mb-2">
+                  <a href="scrollspyservices" class="link-secondary text-decoration-none">Services</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#scrollspyPricing" class="link-secondary text-decoration-none">Tarifs</a>
+                </li>
+                <li class="mb-0">
+                  <a href="#scrollspyContact" class="link-secondary text-decoration-none">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="widget">
+              <h4 class="widget-title mb-4">Contactez-nous</h4>
+              <p class="mb-1">
+                <a class="link-secondary text-decoration-none" href="tel:+212684251245">+212 6 84 25 12 45</a>
+              </p>
+              <p class="mb-0">
+                <a class="link-secondary text-decoration-none" href="mailto:contact@britavox.com">contact@britavox.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
+      <div class="container overflow-hidden">
+        <div class="row gy-4 gy-md-0">
+          <div class="col-xs-12 col-md-7 order-1 order-md-0">
+            <div class="copyright text-center text-md-start">
+              &copy; 2025. Britavox.com
+            </div>
+        
+          </div>
+
+          <div class="col-xs-12 col-md-5 order-0 order-md-1">
+            <ul class="nav justify-content-center justify-content-md-end">
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://web.facebook.com/profile.php?id=61574867305887">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://www.youtube.com/@BritaVox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://www.linkedin.com/company/britavox/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://www.instagram.com/britavox/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://wa.me/212684251245">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="https://www.tiktok.com/@britavox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/controller/project-2.js"></script>
+  <script src="./assets/controller/wave-bsb.js"></script>
+
+  <script>
+    function sendFormData(fullName, phone, city, formElement, formName) {
+      const payload = {
+        "Full Name": fullName,
+        "Number Phone": phone,
+        "City": city,
+        "Date": new Date().toLocaleString(),
+        "Form Source": formName // Pour savoir d'où vient le lead ('hero' ou 'contact')
+      };
+
+      // 1. Afficher un message de chargement
+      const messageDiv = formElement.querySelector('.form-message');
+      const submitButton = formElement.querySelector('button[type="submit"]');
+      if (messageDiv) {
+        messageDiv.textContent = "Envoi en cours...";
+        messageDiv.style.color = "#0d6efd"; // Bleu primaire
+      }
+      if (submitButton) submitButton.disabled = true;
+
+
+      fetch("https://hook.eu2.make.com/dwh9mt5h6o1askx10w6ps4elcibuse1f", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      })
+      .then(response => {
+        if (!response.ok) {
+          // Gérer les erreurs de serveur
+          throw new Error('Network response was not ok');
+        }
+        return response.text();
+      })
+      .then(() => {
+        
+        // --- SUIVI MARKETING ---
+
+        // 2. Suivre l'événement Lead sur le Meta Pixel
+        try {
+          fbq('track', 'Lead');
+          console.log('Meta Pixel: Lead tracked');
+        } catch (e) {
+          console.error('fbq error:', e);
+        }
+
+        // 3. Suivre l'événement Lead sur Google Analytics (GA4)
+        try {
+          gtag('event', 'generate_lead', {
+            'event_category': 'form_submission',
+            'event_label': formName // 'hero' ou 'contact'
+          });
+          console.log('GA4: generate_lead tracked');
+        } catch (e) {
+          console.error('gtag error:', e);
+        }
+
+        // 4. Rediriger vers la page de remerciement
+        window.location.href = "merci.html";
+
+      })
+      .catch(error => {
+        // 5. Afficher une erreur conviviale
+        if (messageDiv) {
+          messageDiv.textContent = "Une erreur est survenue. Veuillez réessayer.";
+          messageDiv.style.color = "red";
+        }
+        if (submitButton) submitButton.disabled = false; // Réactiver le bouton
+        console.error(error);
+      });
+    }
+
+    // Gestionnaire pour le formulaire Hero
+    const formHero = document.getElementById("formHero");
+    if (formHero) {
+      formHero.addEventListener("submit", function (e) {
+        e.preventDefault();
+        sendFormData(
+          document.getElementById("fullName1").value,
+          document.getElementById("phone1").value,
+          document.getElementById("city1").value,
+          formHero,
+          'hero' // Nom du formulaire
+        );
+      });
+    }
+
+    // Gestionnaire pour le formulaire Contact (Bottom)
+    const formBottom = document.getElementById("formBottom");
+    if (formBottom) {
+      formBottom.addEventListener("submit", function (e) {
+        e.preventDefault();
+        sendFormData(
+          document.getElementById("fullName2").value,
+          document.getElementById("phone2").value,
+          document.getElementById("city2").value,
+          formBottom,
+          'contact' // Nom du formulaire
+        );
+      });
+    }
+  </script>
+<div class="whatsapp-button">
+  <a href="https://wa.me/212684251245" target="_blank" rel="noopener noreferrer"
+     
+     onclick="try { fbq('trackCustom', 'WhatsAppClick'); gtag('event', 'click', {'event_category': 'contact', 'event_label': 'whatsapp_button'}); } catch(e) { console.error(e); }"
+     
+     >
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.608-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+    </svg>
+  </a>
+</div>
+
+<style>
+  /* WhatsApp Button CSS */
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25D366; /* WhatsApp brand color */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .whatsapp-button svg {
+    color: white;
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Pulse animation (optional) */
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .whatsapp-button.pulse {
+    animation: pulse 2s infinite;
+  }
+
+  /* Style pour les messages d'erreur/succès du formulaire */
+  .form-message {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  // Optional JavaScript for pulse animation
+  document.addEventListener('DOMContentLoaded', function() {
+    const waButton = document.querySelector('.whatsapp-button');
+    
+    // Add pulse animation when page loads
+    waButton.classList.add('pulse');
+    
+    // Remove animation after 6 seconds
+    setTimeout(() => {
+      waButton.classList.remove('pulse');
+    }, 6000);
+    
+    // Add pulse when hovering (optional)
+    waButton.addEventListener('mouseenter', () => {
+      waButton.classList.add('pulse');
+    });
+    
+    waButton.addEventListener('mouseleave', () => {
+      waButton.classList.remove('pulse');
+    });
+  });
+</script>
+</body>
+
+</html>
