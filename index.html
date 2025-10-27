@@ -13,8 +13,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet"></noscript>
 
+  
   <link rel="stylesheet" href="./assets/css/wave-bsb.css">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVWEY6BFDR"></script>
@@ -738,14 +740,14 @@ src="https://www.facebook.com/tr?id=1924341144776130&ev=PageView&noscript=1"
 
   </footer>
 
-  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
-  <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
-  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
-  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js" defer></script>
+  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js" defer></script>
+  <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js" defer></script>
+  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" defer></script>
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
-  <script src="./assets/controller/project-2.js"></script>
-  <script src="./assets/controller/wave-bsb.js"></script>
+  <script src="./assets/controller/project-2.js" defer></script>
+  <script src="./assets/controller/wave-bsb.js" defer></script>
 
   <script>
     function sendFormData(fullName, phone, city, formElement, formName) {
