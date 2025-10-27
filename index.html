@@ -788,14 +788,6 @@ src="https://www.facebook.com/tr?id=1501267767785511&ev=PageView&noscript=1"
         
         // --- SUIVI MARKETING ---
 
-        // 2. Suivre l'événement Lead sur le Meta Pixel
-        try {
-          fbq('track', 'Lead');
-          console.log('Meta Pixel: Lead tracked');
-        } catch (e) {
-          console.error('fbq error:', e);
-        }
-
         // 3. Suivre l'événement Lead sur Google Analytics (GA4)
         try {
           gtag('event', 'generate_lead', {
