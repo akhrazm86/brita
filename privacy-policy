@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Politique de Confidentialité | Britavox</title>
+
+  <link rel="stylesheet" href="./assets/css/wave-bsb.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+
+  <style>
+    /* Ajout de styles simples pour le contenu de la politique */
+    .policy-container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .policy-container h1 {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      color: #0d6efd; /* Couleur primaire de votre site */
+      margin-bottom: 30px;
+    }
+    .policy-container h2 {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .policy-container p, .policy-container li {
+      line-height: 1.7;
+      color: #555;
+    }
+    .policy-container .navbar-brand img {
+      max-height: 40px;
+    }
+    .policy-container .footer-note {
+      margin-top: 50px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bsb-tpl-bg-blue bsb-navbar bsb-navbar-hover bsb-navbar-caret">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/img/branding/logo.svg" class="bsb-tpl-logo" alt="Britavox Logo">
+      </a>
+      <a href="index.html" class="btn btn-outline-light">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg>
+        Retour à l'accueil
+      </a>
+    </div>
+  </nav>
+
+  <div class="policy-container">
+    <h1>Politique de Confidentialité</h1>
+    <p>Dernière mise à jour : 1er novembre 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>Bienvenue chez BritaVox ("nous", "notre"). Nous nous engageons à protéger la vie privée des visiteurs de notre site web et des utilisateurs de nos services. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations personnelles.</p>
+    <p>En utilisant notre site web (britavox.com), vous acceptez les termes de cette politique de confidentialité. Cette politique est conforme à la loi marocaine n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel.</p>
+
+    <h2>2. Les données que nous collectons</h2>
+    <p>Nous collectons des informations vous concernant de plusieurs manières lorsque vous utilisez notre site :</p>
+    
+    <h4>A. Informations que vous nous fournissez</h4>
+    <p>Lorsque vous remplissez le formulaire pour une session d'évaluation gratuite, nous collectons les informations suivantes :</p>
+    <ul>
+      <li>Nom complet</li>
+      <li>Numéro de téléphone</li>
+      <li>Ville</li>
+    </ul>
+    <p>Nous pouvons également collecter votre adresse e-mail ou d'autres informations si vous nous contactez directement à <strong>contact@britavox.com</strong>.</p>
+
+    <h4>B. Informations collectées automatiquement (Cookies)</h4>
+    <p>Lorsque vous naviguez sur notre site, nous et nos partenaires tiers pouvons utiliser des cookies et des technologies similaires (comme les pixels) pour collecter automatiquement certaines informations :</p>
+    <ul>
+      <li><strong>Données d'utilisation :</strong> Informations sur la façon dont vous interagissez avec notre site, telles que les pages que vous visitez, le temps passé sur les pages, et les liens sur lesquels vous cliquez.</li>
+      <li><strong>Données techniques :</strong> Adresse IP, type de navigateur, système d'exploitation, et informations sur l'appareil.</li>
+    </ul>
+
+    <h2>3. Comment nous utilisons vos données</h2>
+    <p>Nous utilisons les informations collectées aux fins suivantes :</p>
+    <ul>
+      <li><strong>Pour fournir nos services :</strong> Utiliser votre nom et votre numéro de téléphone pour vous contacter afin de planifier votre évaluation gratuite.</li>
+      <li><strong>Pour améliorer notre service :</strong> Analyser la façon dont les utilisateurs interagissent avec notre site afin d'optimiser l'expérience, le contenu et nos offres.</li>
+      <li><strong>Pour le marketing et l'analyse :</strong> Utiliser les données des cookies pour mesurer l'efficacité de nos campagnes publicitaires (par exemple, sur Facebook/Meta) et pour comprendre d'où viennent nos visiteurs (par exemple, avec Google Analytics).</li>
+      <li><strong>Pour la sécurité :</strong> Protéger notre site web et nos utilisateurs contre la fraude et les abus.</li>
+    </ul>
+
+    <h2>4. Avec qui nous partageons vos données</h2>
+    <p>Nous ne vendons pas vos données personnelles. Cependant, nous pouvons partager vos informations avec des prestataires de services tiers qui nous aident à exploiter notre entreprise :</p>
+    <ul>
+      <li><strong>Make.com et Google Sheets :</strong> Nous utilisons ces services pour automatiser et stocker les informations que vous soumettez via nos formulaires.</li>
+      <li><strong>Brevo (anciennement Sendinblue) :</strong> Nous pouvons utiliser Brevo pour vous envoyer des communications de service (par exemple, la confirmation de votre rendez-vous) ou des communications marketing. Vous pouvez vous désinscrire de ces communications à tout moment.</li>
+      <li><strong>Google Analytics :</strong> Pour analyser le trafic de notre site web. Google a sa propre politique de confidentialité.</li>
+      <li><strong>Meta (Facebook Pixel) :</strong> Pour nous aider à mesurer l'efficacité de nos publicités sur les plateformes Meta (Facebook, Instagram).</li>
+    </ul>
+
+    <h2>5. Cookies et technologies de suivi</h2>
+    <p>Notre site utilise des cookies d'analyse (Google Analytics) et de marketing (Meta Pixel) pour améliorer votre expérience et nous aider à comprendre nos visiteurs. Vous pouvez gérer vos préférences en matière de cookies via les paramètres de votre navigateur, bien que cela puisse affecter la fonctionnalité de certaines parties de notre site.</p>
+
+    <h2>6. Sécurité de vos données</h2>
+    <p>La sécurité de vos données est importante pour nous. Nous utilisons des mesures de sécurité techniques, comme le cryptage SSL (Secure Socket Layer), pour protéger la transmission des données que vous soumettez sur notre site. Cependant, aucune méthode de transmission sur Internet n'est sécurisée à 100%, et nous ne pouvons garantir une sécurité absolue.</p>
+
+    <h2>7. Vos droits</h2>
+    <p>Conformément à la loi 09-08, vous disposez de droits sur vos données personnelles :</p>
+    <ul>
+      <li><strong>Droit d'accès :</strong> Vous pouvez demander une copie des informations que nous détenons sur vous.</li>
+      <li><strong>Droit de rectification :</strong> Vous pouvez demander la correction des informations incorrectes ou incomplètes.</li>
+      <li><strong>Droit d'opposition/suppression :</strong> Vous pouvez demander la suppression de vos données personnelles, sous réserve des obligations légales.</li>
+    </ul>
+    <p>Pour exercer ces droits, veuillez nous contacter à <strong>contact@britavox.com</strong>.</p>
+
+    <h2>8. Vie privée des mineurs</h2>
+    <p>Nos services s'adressent aux personnes âgées de 18 à 65 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de personnes de moins de 18 ans. Si vous êtes un parent et que vous pensez que votre enfant nous a fourni des informations, veuillez nous contacter pour que nous puissions les supprimer.</p>
+
+    <h2>9. Modifications de cette politique</h2>
+    <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous notifierons de tout changement en publiant la nouvelle politique sur cette page et en mettant à jour la date de "Dernière mise à jour" en haut.</p>
+
+    <h2>10. Nous contacter</h2>
+    <p>Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à :</p>
+    <p><strong>BritaVox</strong><br>
+    Email : <strong>contact@britavox.com</strong></p>
+  </div>
+
+  <div class="policy-container">
+    <div class="footer-note">
+      &copy; 2025. Britavox.com | <a href="index.html">Accueil</a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
